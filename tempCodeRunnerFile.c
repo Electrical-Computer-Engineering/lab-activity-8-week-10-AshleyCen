@@ -30,7 +30,7 @@ void match_removed (char one[], char two[])
         { 
           for (j = 0; j < len1; j++)
             {
-              if (two[j] == one[i])
+              if (two[j] = one[i])
               {
                 checkSame = 1; 
               }
@@ -40,7 +40,7 @@ void match_removed (char one[], char two[])
 
       if (checkSame == 0)
       {
-        printf("%c", two[i]); 
+        printf("%c", one[i]); 
       }
     }
   else
@@ -55,20 +55,3 @@ void match_removed (char one[], char two[])
           checkSame = 1; 
         }
       }
-      if (checkSame == 0) 
-      {
-        printf("%c ", one[i]);
-      }
-    }
-  }
-
-}
-
-int main()
-{
-  char one[MAX] = {'h','i',' ', 'e','s','e','1','2','4','\0'};
-  char two[MAX] = {'h','i', ' ', '!'};
-
-  match_removed(one, two);
-}
-

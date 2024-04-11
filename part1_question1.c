@@ -1,5 +1,5 @@
 
-//Ashley Cen (115796180)
+///Ashley Cen (115796180)
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -94,17 +94,3 @@ int main ()
 	
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
